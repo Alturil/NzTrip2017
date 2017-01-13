@@ -1,0 +1,34 @@
+.day {
+    background: linear-gradient(to right, rgba(255, 197,0,1) 0%,rgba(255, 197,0,1) 30%,rgba(255, 197,0,0) 100%), url("img/varios%20-%20maori3.png") -70px 0;
+    background-position: right;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    display: block;
+    box-shadow: 0 0 10px #000000;
+    border-top: 5px solid rgba(0,0,0,0.5);
+    border-bottom: 5px solid rgba(0,0,0,0.5);
+    position: relative;
+    cursor: pointer;
+}
+.day:first-of-type {
+    border-top: none;
+}
+
+.day p {
+    margin: 0;
+    padding: 0.5rem 1rem;
+    font-family: 'Patua One', cursive;
+    font-size: 1.6rem;
+    text-shadow: 0 0 2px rgba(0,0,0,0.8);
+}
+
+.day i {
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 2rem;
+    text-shadow: 0 0 2px rgba(0,0,0,0.8);
+}
