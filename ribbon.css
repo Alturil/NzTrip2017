@@ -17,7 +17,7 @@
     width: 0;
     height: 0;
     bottom: -19px;
-    border-style: solid;
+    border-style: solid;    
 }
 
 .ribbon::before {
@@ -27,7 +27,7 @@
 
 .ribbon::after {
     right: 0;
-    border-width: 0 25px 20px 0;
+    border-width: 0 25px 20px 0;    
 }
 
 .ribbon i {
